@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Archivo Digital - Publicaciones FCyT</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Archivo Digital de Publicaciones FCyT</h1>
+    <section class="institutional-texts">
+      <h2>Misión</h2>
+      <p>Formar profesionales excelentes con conocimientos científicos y tecnológicos, competentes, con sentido crítico, ético y responsabilidad social.</p>
+
+      <h2>Visión</h2>
+      <p>Ser una Facultad líder, con excelencia en la formación de profesionales que contribuyan al desarrollo del país.</p>
+
+      <p>La visión de la UNCA de ser una universidad respuesta es lo que ha llevado a la política institucional de realizar todos los proyectos basados en necesidades locales, regionales y nacionales. Por ello se trabaja a partir de una necesidad detectada o solicitada por alguna institución o comisión y se verifica si el proyecto se encara como extensión o como proyecto final de grado.</p>
+    </section>
+  </header>
+
+  <section id="filters">
+    <label for="filterYear">Filtrar por año:</label>
+    <select id="filterYear">
+      <option value="all">Todos</option>
+      <!-- Opciones llenadas dinámicamente -->
+    </select>
+
+    <label for="filterProject">Filtrar por proyecto:</label>
+    <select id="filterProject">
+      <option value="all">Todos</option>
+      <!-- Opciones llenadas dinámicamente -->
+    </select>
+
+    <label for="filterType">Filtrar por tipo de proyecto:</label>
+    <select id="filterType">
+      <option value="all">Todos</option>
+      <option value="extension">Extensión</option>
+      <option value="pfg">Proyecto Final de Grado</option>
+    </select>
+  </section>
+
+  <main id="postsContainer">
+    <!-- Aquí se insertarán las publicaciones -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
